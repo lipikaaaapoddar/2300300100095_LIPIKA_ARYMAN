@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-// Function to rotate array by k steps
 void rotate(vector<int>& nums, int k) {
     if (nums.size() <= 1) return;
 

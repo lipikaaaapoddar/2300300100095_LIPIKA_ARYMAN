@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-// Function to calculate maximum profit
 int maxProfit(vector<int>& prices) {
     int prof = 0, minprice = prices[0];
 
